@@ -1,6 +1,6 @@
 # KNIL
 
-KNIL is a french linux console RPG I've done with a schoolmate for a school project.
+KNIL is a french linux console RPG I've done with a schoolmate as a school project (made in python 2).
 
 You are the new hero of a town where cityzen need your help and send you look for items in the dungeon just aside the town.
 
