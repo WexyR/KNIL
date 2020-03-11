@@ -120,7 +120,7 @@ def show(m, k, b):
 				color(fontcolor=getColor(m), bgcolor=bgcolor)
 				goto((py-y0)+1, (px-x0)*2+1)
 				for c in case["c"]:
-			 		if isinstance(c, str):
+					if isinstance(c, str):
 						w(c)
 					else:
 						w(Background.special_carac[c])
