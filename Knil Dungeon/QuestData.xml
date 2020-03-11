@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <quest title="La Lampe">
+    <step_lvl>0</step_lvl>
+    <auto_txt>
+      <pnj name="Vieillard">1</pnj>
+    </auto_txt>
+    <details>Sur les sages conseils du Vieillard, il vous faut parler aux villageois pour trouver une lampe afin d'explorer le donjon</details>
+    <step n="0">
+      <to_do>event_speak_Vieillard</to_do>
+    </step>
+    <step n="1">
+      <to_do>event_speak_Jean-Marie Le Crayon</to_do>
+      <result>execute_give_flashlight</result>
+    </step>
+  </quest>
+
+  <quest title="Le Collier">
+    <step_lvl>-1</step_lvl>
+    <auto_txt>
+      <pnj name="Vieillard">1</pnj>
+    </auto_txt>
+    <details>Maintenant que vous avez votre lampe, le Vieillard vous demande d'aller trouver le collier de sa defunte femme dans le donjon</details>
+    <step n="-1">
+      <to_do>event_finish_La Lampe</to_do>
+    </step>
+    <step n="0">
+      <to_do>event_speak_Vieillard</to_do>
+      <result>execute_grid_addObject_57_16_collier</result>
+    </step>
+    <step n="1">
+      <to_do>event_find_collier</to_do>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Vieillard</to_do>
+    </step>
+  </quest>
+
+  <quest title="Le voleur d'epee">
+    <step_lvl>0</step_lvl>
+    <auto_txt>
+      <pnj name="Andre">1</pnj>
+    </auto_txt>
+    <details>Andre le forgeron s'est fait vole une epee, il vous demande de la recuperer. En echange, il vous offrira un objet de valeur</details>
+    <step n="0">
+      <to_do>event_speak_Andre</to_do>
+    </step>
+    <step n="1">
+      <to_do>event_speak_Corps d'un voleur</to_do>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Andre</to_do>
+      <result>execute_give_bomb</result>
+    </step>
+  </quest>
+
+  <quest title="Le Grimoire">
+    <step_lvl>0</step_lvl>
+    <auto_txt>
+      <pnj name="Matthieu">1</pnj>
+    </auto_txt>
+    <details>Matthieu vous parle d'un grimoire perdu dans le Donjon. En le retrouvant, il vous assure un acces à la bibliotheque</details>
+    <step n="0">
+      <to_do>event_speak_Matthieu</to_do>
+      <result>execute_grid_addObject_127_24_Grimoire</result>
+    </step>
+    <step n="1">
+      <to_do>event_find_Grimoire</to_do>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Matthieu</to_do>
+      <result>execute_give_key_library</result>
+    </step>
+    <step n="3">
+      <to_do>event_speak_Bibliothecaire</to_do>
+      <result>execute_give_key_treasure</result>
+    </step>
+  </quest>
+
+  <quest title="Instruction">
+    <step_lvl>-1</step_lvl>
+    <auto_txt>
+      <pnj name="Ermite">1, 3</pnj>
+      <pnj name="Andre">6</pnj>
+    </auto_txt>
+    <details>L'Ermite vous prend pour quelqu'un de naïf et de mal instruit. Vous devez lui prouver le contraire</details>
+    <step n="-1">
+      <to_do>event_finish_La Lampe</to_do>
+    </step>
+    <step n="0">
+      <to_do>event_speak_Ermite</to_do>
+      <result>execute_give_key_archive</result>
+    </step>
+    <step n="1">
+      <to_do>event_pos_at_127_27</to_do>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Ermite</to_do>
+    </step>
+    <step n="3">
+      <to_do>event_speak_Corps d'un voyageur</to_do>
+      <result>execute_give_powder</result>
+    </step>
+    <step n="4">
+      <to_do>event_speak_Ermite</to_do>
+    </step>
+    <step n="5">
+      <to_do>event_speak_Andre</to_do>
+    </step>
+    <step n="6">
+      <to_do>event_speak_Ermite</to_do>
+      <result>execute_upFlashlight_10</result>
+    </step>
+  </quest>
+
+  <quest title="Le Tresor du Donjon">
+    <step_lvl>0</step_lvl>
+    <auto_txt></auto_txt>
+    <details>Richard est le proprietaire de l'ancien manoir. Il vous remercie de l'avoir libere et compte netoyer un peu son chez-lui</details>
+    <step n="0">
+      <to_do>event_speak_Richard</to_do>
+      <result>execute_endGame</result>
+    </step>
+  </quest>
+</data>

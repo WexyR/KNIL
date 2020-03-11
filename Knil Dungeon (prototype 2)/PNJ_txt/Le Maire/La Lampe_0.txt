@@ -1,0 +1,6 @@
+Bienvenue jeune aventurier, tu t'apprêtes à entrer dans notre ville! Cela fait longtemps qu'aucun aventurier ne l'a traversé.
+Certains de nos citoyens ont sans doute quelques requêtes à te proposer; peut-etre pourrais-tu les aider?
+Depuis ce temps le donjon s'est avili avec tous ces monstres qui s'y sont installé.
+Fais bien attention si tu comptes t'y rendre. Il fait très noir à l'intérieur. Peut-être quelqu'un te proposera une lampe torche pour éclairer ton chemin?
+
+Bonne chance.

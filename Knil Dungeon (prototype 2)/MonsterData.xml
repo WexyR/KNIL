@@ -1,0 +1,17 @@
+<data>
+	<Monster id="001">
+		<initial_position>69, 10</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>8</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="002">
+		<initial_position>75, 15</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>8</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+
+</data>

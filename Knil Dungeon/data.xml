@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <map>
+        <dimension>
+            <line>100</line>
+            <column>150</column>
+        </dimension>
+        <case>
+          <fontcolor>255</fontcolor>
+          <bgcolor>255</bgcolor>
+          <c>  ,  </c>
+          <crossable>1</crossable>
+        </case>
+    </map>
+
+    <areas>
+      <area id="town_grass">
+        <origin>0, 0</origin>
+        <size>100, 51</size>
+        <normal_case>
+          <fontcolor>35, 153, 89</fontcolor>
+          <bgcolor>35, 237, 0</bgcolor>
+          <c randomize = "2" equal="True">  , 1</c>
+          <crossable>1</crossable>
+          <brightness>100</brightness>
+        </normal_case>
+      </area>
+      <area id="dungeon">
+        <origin>51, 0</origin>
+        <size>100, 100</size>
+        <normal_case>
+          <fontcolor>64, 62, 66</fontcolor>
+          <bgcolor>38, 26, 48</bgcolor>
+          <c> O, o</c>
+          <crossable>0</crossable>
+          <brightness>20</brightness>
+        </normal_case>
+      </area>
+    </areas>
+
+
+
+    <roads>
+        <values>
+          <normal_case>
+            <fontcolor> 92, 92, 92</fontcolor>
+            <bgcolor> 92, 92, 92</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+          </normal_case>
+          <wall_case>
+            <fontcolor> 153, 212, 153</fontcolor>
+            <bgcolor> 153, 153, 153</bgcolor>
+            <c> 1,  </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+          </wall_case>
+        </values>
+        <road id="001">
+            <origin>12, 0</origin>
+            <size>100, 10</size>
+            <walls>0, 1, 0, 1</walls>
+        </road>
+        <road id="002">
+            <origin>21, 21</origin>
+            <size>7, 34</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+        <road id="003">
+            <origin>21, 5</origin>
+            <size>3, 2</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+        <road id="004">
+            <origin>9, 18</origin>
+            <size>3, 4</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+        <road id="005">
+            <origin>11, 32</origin>
+            <size>3, 2</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+
+
+    </roads>
+
+    <trees>
+      <values>
+          <leaf_case>
+            <fontcolor randomize="1" equal="False">
+          		<leaf_color>26, 153, 26</leaf_color>
+          		<leaf_color>40, 135, 25</leaf_color>
+          		<leaf_color>44, 142, 5</leaf_color>
+            </fontcolor>
+
+            <bgcolor randomize="1" equal="False">
+          		<leaf_color>26, 151, 26</leaf_color>
+          		<leaf_color>40, 131, 25</leaf_color>
+          		<leaf_color>44, 141, 5</leaf_color>
+            </bgcolor>
+            <c randomize="2" equal="True">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,  </c>
+            <crossable>2</crossable>
+          </leaf_case>
+
+      	  <trunk_case>
+                  <fontcolor>90, 163, 31</fontcolor>
+                  <bgcolor>10, 119, 2</bgcolor>
+                  <c> 1, 1</c>
+                  <crossable>0</crossable>
+                  <brightness>100</brightness>
+      	  </trunk_case>
+      </values>
+      <tree>
+    	  <origin>30, 45</origin>
+    	  <radius>7</radius>
+      </tree>
+      <tree>
+    	  <origin>38, 60</origin>
+    	  <radius>11</radius>
+      </tree>
+      <tree>
+        <origin>43, 17</origin>
+        <radius>4</radius>
+      </tree>
+      <tree>
+        <origin>41, 35</origin>
+        <radius>6</radius>
+      </tree>
+      <tree>
+        <origin>25, 29</origin>
+        <radius>4</radius>
+      </tree>
+      <tree>
+        <origin>7, 27</origin>
+        <radius>2</radius>
+      </tree>
+      <tree>
+        <origin>45, 85</origin>
+        <radius>5</radius>
+      </tree>
+      <tree>
+        <origin>45, 85</origin>
+        <radius>5</radius>
+      </tree>
+      <tree>
+        <origin>7, 50</origin>
+        <radius>5</radius>
+      </tree>
+      <tree>
+        <origin>7, 65</origin>
+        <radius>7</radius>
+      </tree>
+      <tree>
+        <origin>5, 86</origin>
+        <radius>6</radius>
+      </tree>
+      <tree>
+        <origin>29, 78</origin>
+        <radius>4</radius>
+      </tree>
+
+    </trees>
+
+
+    <houses>
+      <house id="Jean-marie's_house">
+        <origin>23, 1</origin>
+        <values>
+          <normal_case>
+            <fontcolor>99, 77, 10</fontcolor>
+            <bgcolor>234, 182, 28</bgcolor>
+            <c> , </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+            <special_case id="Jean-marie's_house">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> ^, ^</c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>153, 212, 153</fontcolor>
+            <bgcolor>153, 153, 153</bgcolor>
+            <c> 1, 1</c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+            <special_case id="Jean-marie's_house">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> @, =</c>
+              <crossable>1</crossable>
+            </special_case>
+          </wall_case>
+        </values>
+        <room id="001">
+          <origin>0, 0</origin>
+          <size>11, 14</size>
+          <walls>1, 1, 1, 1</walls>
+          <door>
+            <door_location>0, 5</door_location>
+          </door>
+
+          <room id="Jean-marie's_house-1">
+            <values>
+              <normal_case>
+                <fontcolor>50, 77, 120</fontcolor>
+                <bgcolor>50, 77, 120</bgcolor>
+                <c> , </c>
+                <crossable>1</crossable>
+                <brightness>100</brightness>
+                <special_case id="Jean-marie's_house">
+                  <fontcolor>109, 54, 12</fontcolor>
+                  <bgcolor>224, 104, 13</bgcolor>
+                  <c> =, =</c>
+                  <crossable>1</crossable>
+                </special_case>
+              </normal_case>
+            </values>
+            <origin>6, -1</origin>
+            <size>7, 11</size>
+            <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>0, 2</door_location>
+            </door>
+
+          </room>
+          <room id="Jean-marie's_house-2">
+            <values>
+              <normal_case>
+                <fontcolor>210, 77, 120</fontcolor>
+                <bgcolor>210, 77, 120</bgcolor>
+                <c> , </c>
+                <crossable>1</crossable>
+                <brightness>100</brightness>
+                <special_case id="Jean-marie's_house">
+                  <fontcolor>109, 54, 12</fontcolor>
+                  <bgcolor>224, 104, 13</bgcolor>
+                  <c> =, =</c>
+                  <crossable>1</crossable>
+                </special_case>
+              </normal_case>
+            </values>
+            <origin>4, 8</origin>
+            <size>7, 11</size>
+            <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>0, 1</door_location>
+            </door>
+
+          </room>
+        </room>
+
+      </house>
+
+
+     <house id="library">
+        <origin>4, 14</origin>
+        <values>
+          <normal_case>
+            <fontcolor>99, 77, 10</fontcolor>
+            <bgcolor>234, 182, 28</bgcolor>
+            <c> , </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+            <special_case id="library">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> ^, ^</c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>153, 212, 153</fontcolor>
+            <bgcolor>153, 153, 153</bgcolor>
+            <c> 1, 1</c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+            <special_case id="library">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> @, =</c>
+              <crossable>1</crossable>
+            </special_case>
+          </wall_case>
+        </values>
+
+        <room id="library-1">
+          <origin>0, 0</origin>
+          <size>4, 7</size>
+          <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>1, 3</door_location>
+            </door>
+            <door>
+              <door_location>2, 3</door_location>
+            </door>
+            <door>
+              <door_location>3, 3</door_location>
+            </door>
+        </room>
+
+          <room id="library-2">
+            <origin>0, 7</origin>
+            <size>4, 7</size>
+            <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>1, 0</door_location>
+            </door>
+            <door>
+              <door_location>2, 0</door_location>
+            </door>
+            <door>
+              <door_location>3, 0</door_location>
+            </door>
+          </room>
+
+          <room id="library-3">
+            <origin>0, 3</origin>
+            <size>5, 5</size>
+            <walls>0, 1, 0, 1</walls>
+            <door>
+              <door_location>4, 2</door_location>
+              <doorID>library</doorID>
+              <door_cross>0</door_cross>
+            </door>
+          </room>
+      </house>
+
+
+     <house id="blacksmith">
+        <origin>3, 30</origin>
+        <values>
+          <normal_case>
+            <fontcolor>99, 77, 10</fontcolor>
+            <bgcolor>234, 182, 28</bgcolor>
+            <c> , </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+            <special_case id="blacksmith">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> ^, ^</c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>153, 212, 153</fontcolor>
+            <bgcolor>153, 153, 153</bgcolor>
+            <c> 1, 1</c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+            <special_case id="blacksmith">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> @, =</c>
+              <crossable>1</crossable>
+            </special_case>
+          </wall_case>
+        </values>
+
+        <room id="blacksmith-1">
+          <origin>0, 0</origin>
+          <size>6, 8</size>
+          <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>7, 3</door_location>
+            </door>
+        </room>
+
+          <room id="blacksmith-2">
+            <origin>0, 5</origin>
+            <size>5, 5</size>
+            <walls>0, 1, 1, 1</walls>
+          </room>
+
+          <room id="blacksmith-3">
+            <origin>6, 7</origin>
+            <size>2, 2</size>
+            <walls>0, 0, 0, 0</walls>
+            <values>
+              <normal_case>
+                <fontcolor>255, 153, 51</fontcolor>
+                <bgcolor>255, 153, 51</bgcolor>
+                <c> 1, 1</c>
+                <crossable>0</crossable>
+                <brightness>100</brightness>
+              </normal_case>
+            </values>
+          </room>
+      </house>
+
+     <house id="ermite">
+        <origin>30, 90</origin>
+        <values>
+          <normal_case>
+            <fontcolor>99, 77, 10</fontcolor>
+            <bgcolor>234, 182, 28</bgcolor>
+            <c> , </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+            <special_case id="ermite">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> ^, ^</c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>153, 212, 153</fontcolor>
+            <bgcolor>153, 153, 153</bgcolor>
+            <c> 1, 1</c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+            <special_case id="ermite">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> @, =</c>
+              <crossable>1</crossable>
+            </special_case>
+          </wall_case>
+        </values>
+
+        <room id="ermite-1">
+          <origin>1, 1</origin>
+          <size>7, 7</size>
+          <walls>1, 1, 1, 1</walls>
+        </room>
+
+          <room id="ermite-2">
+            <origin>2, 0</origin>
+            <size>9, 5</size>
+            <walls>1, 0, 1, 0</walls>
+            <door>
+              <door_location>2, 0</door_location>
+            </door>
+          </room>
+
+          <room id="ermite-3">
+            <origin>0, 2</origin>
+            <size>5, 9</size>
+            <walls>0, 1, 0, 1</walls>
+          </room>
+      </house>
+
+    </houses>
+
+    <interactive_cases>
+      <cases>
+        <values>
+          <c> , ?</c>
+          <crossable>0</crossable>
+        </values>
+        <case>
+          <origin>20, 7</origin>
+          <executions>
+            <execution>execute_dialog_Maison de Jean-Marie le Crayon</execution>
+          </executions>
+        </case>
+        <case>
+          <origin>13, 18</origin>
+          <executions>
+            <execution>execute_dialog_Bibliotheque</execution>
+          </executions>
+        </case>
+        <case>
+          <origin>13, 32</origin>
+          <executions>
+            <execution>execute_dialog_Forge</execution>
+          </executions>
+        </case>
+        <case>
+          <origin>48, 22</origin>
+          <executions>
+            <execution>execute_dialog_Donjon de Naheulbeuk</execution>
+          </executions>
+        </case>
+      </cases>
+      <cases>
+        <case>
+          <origin>38, 60</origin>
+          <executions>
+            <execution>execute_dialog_Je s'appelle Groot</execution>
+          </executions>
+        </case>
+      </cases>
+    </interactive_cases>
+
+
+
+
+
+    <!-- DUNGEON -->
+
+
+
+    <dungeon_roads>
+      <values>
+        <normal_case>
+          <fontcolor>64, 62, 66</fontcolor>
+          <bgcolor>38, 26, 48</bgcolor>
+          <c>  ,  </c>
+          <crossable>1</crossable>
+          <brightness>15</brightness>
+        </normal_case>
+        <wall_case>
+          <fontcolor> 153, 212, 153</fontcolor>
+          <bgcolor> 153, 153, 153</bgcolor>
+          <c>  ,  </c>
+          <crossable>0</crossable>
+          <brightness>15</brightness>
+        </wall_case>
+      </values>
+      <road id="001">
+          <origin>60, 10</origin>
+          <size>10, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="002">
+          <origin>63, 10</origin>
+          <size>3, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="003">
+          <origin>95, 7</origin>
+          <size>3, 5</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="004">
+          <origin>108, 29</origin>
+          <size>3, 15</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="005">
+          <origin>128, 36</origin>
+          <size>1, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="006">
+          <origin>114, 44</origin>
+          <size>3, 2</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="007">
+          <origin>64, 23</origin>
+          <size>3, 6</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="008">
+          <origin>67, 26</origin>
+          <size>6, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="009">
+          <origin>58, 30</origin>
+          <size>17, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="010">
+          <origin>61, 44</origin>
+          <size>3, 44</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+
+
+    </dungeon_roads>
+
+
+
+
+
+
+    <dungeon_houses>
+        <house id="labyrinthe_1">
+        <origin>70, 22</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="labyrinthe_1">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+        <room id="labyrinthe_1-1">
+          <origin>0, 0</origin>
+          <size>17, 30</size>
+          <walls>1, 0, 1, 1</walls>
+          <door>
+             <door_location>0, 7</door_location>
+          </door>
+          <door>
+             <door_location>0, 8</door_location>
+          </door>
+          <door>
+              <door_location>0, 9</door_location>
+          </door>
+            <room id="  labyrinthe_1-1-1">
+              <origin>7, 0</origin>
+              <size>5, 1</size>
+              <walls>0, 1, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_1-1-2">
+              <origin>4, 4</origin>
+              <size>5, 8</size>
+              <walls>1, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-1-3">
+              <origin>4, 12</origin>
+              <size>1, 4</size>
+              <walls>1, 0, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_1-1-4">
+              <origin>11, 8</origin>
+              <size>5, 5</size>
+              <walls>0, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-1-5">
+              <origin>15, 4</origin>
+              <size>9, 5</size>
+              <walls>0, 1, 0, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-1-6">
+              <origin>15, 4</origin>
+              <size>9, 5</size>
+              <walls>0, 1, 0, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-1-7">
+              <origin>25, 3</origin>
+              <size>4, 5</size>
+              <walls>0, 1, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_1-1-8">
+              <origin>25, 1</origin>
+              <size>2, 5</size>
+              <walls>0, 1, 0, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-1-9">
+              <origin>25, 10</origin>
+              <size>3, 5</size>
+              <walls>1, 1, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_1-1-10">
+              <origin>25, 0</origin>
+              <size>3, 1</size>
+              <walls>0, 1, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_1-1-11">
+              <origin>25, 14</origin>
+              <size>3, 1</size>
+              <walls>0, 1, 0, 0</walls>
+            </room>
+        </room>
+        <room id="  labyrinthe_1-2">
+          <origin>29, 2</origin>
+          <size>15, 9</size>
+          <walls>1, 1, 1, 0</walls>
+          <door>
+             <door_location>8, 5</door_location>
+          </door>
+          <door>
+             <door_location>8, 6</door_location>
+          </door>
+          <door>
+              <door_location>8, 7</door_location>
+          </door>
+            <room id="  labyrinthe_1-2-1">
+              <origin>0, 8</origin>
+              <size>3, 5</size>
+              <walls>0, 1, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-2-2">
+              <origin>4, 4</origin>
+              <size>5, 4</size>
+              <walls>0, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_1-2-3">
+              <origin>0, 0</origin>
+              <size>5, 1</size>
+              <walls>0, 0, 0, 1</walls>
+            </room>
+        </room>
+      </house>
+
+
+
+      <house id="labyrinthe_2">
+        <origin>66, 1</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="labyrinthe_2">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+        <room id="labyrinthe_2-1">
+          <origin>0, 2</origin>
+          <size>19, 10</size>
+          <walls>1, 1, 1, 1</walls>
+          <door>
+             <door_location>0, 7</door_location>
+          </door>
+          <door>
+             <door_location>0, 8</door_location>
+          </door>
+          <door>
+              <door_location>0, 9</door_location>
+          </door>
+          <door>
+             <door_location>9, 11</door_location>
+          </door>
+          <door>
+             <door_location>9, 12</door_location>
+          </door>
+          <door>
+              <door_location>9, 13</door_location>
+          </door>
+            <room id="  labyrinthe_2-1-1">
+              <origin>0, 4</origin>
+              <size>1, 6</size>
+              <walls>1, 0, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_2-1-2">
+              <origin>4, 8</origin>
+              <size>7, 3</size>
+              <walls>1, 0, 0, 1</walls>
+            </room>
+
+
+        </room>
+        <room id="  labyrinthe_2-2">
+          <origin>10, 0</origin>
+          <size>21, 20</size>
+          <walls>0, 0, 1, 0</walls>
+
+            <room id="  labyrinthe_2-2-1">
+              <origin>0, 12</origin>
+              <size>5, 6</size>
+              <walls>1, 0, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_2-2-2">
+              <origin>4, 9</origin>
+              <size>4, 5</size>
+              <walls>0, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_2-2-3">
+              <origin>9, 16</origin>
+              <size>4, 4</size>
+              <walls>1, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_2-2-4">
+              <origin>8, 4</origin>
+              <size>5, 5</size>
+              <walls>1, 0, 1, 1</walls>
+            </room>
+            <room id="  labyrinthe_2-2-5">
+              <origin>13, 4</origin>
+              <size>6, 4</size>
+              <walls>1, 1, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_2-2-6">
+              <origin>16, 9</origin>
+              <size>5, 5</size>
+              <walls>1, 1, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_2-2-7">
+              <origin>16, 13</origin>
+              <size>3, 5</size>
+              <walls>1, 1, 0, 1</walls>
+            </room>
+        </room>
+      </house>
+
+      <house id="labyrinthe_3">
+        <origin>116, 37</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="labyrinthe_3">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+        <room id="labyrinthe_3-1">
+          <origin>0, 0</origin>
+          <size>14, 21</size>
+          <walls>0, 0, 0, 0</walls>
+            <room id="  labyrinthe_3-1-1">
+              <origin>3, 3</origin>
+              <size>4, 11</size>
+              <walls>1, 1, 0, 1</walls>
+            </room>
+            <room id="  labyrinthe_3-1-2">
+              <origin>10, 0</origin>
+              <size>4, 1</size>
+              <walls>0, 1, 0, 1</walls>
+            </room>
+            <room id="  labyrinthe_3-1-3">
+              <origin>11, 3</origin>
+              <size>4, 3</size>
+              <walls>1, 1, 0, 0</walls>
+            </room>
+            <room id="  labyrinthe_3-1-4">
+              <origin>14, 3</origin>
+              <size>4, 4</size>
+              <walls>0, 1, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_3-1-5">
+              <origin>13, 7</origin>
+              <size>4, 5</size>
+              <walls>0, 1, 1, 0</walls>
+            </room>
+            <room id="  labyrinthe_3-1-6">
+              <origin>0, 8</origin>
+              <size>3, 10</size>
+              <walls>0, 1, 1, 0</walls>
+            </room>
+
+            <room id="  labyrinthe_3-1-7">
+              <origin>7, 7</origin>
+              <size>1, 3</size>
+              <walls>1, 0, 1, 0</walls>
+            </room>
+          </room>
+      </house>
+
+      <house id="rubbled_corridor">
+        <origin>56, 14</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="rubbled_corridor">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+          <room id="rubbled_corridor-1">
+              <origin>0, 0</origin>
+              <size>5, 3</size>
+              <walls>0, 0, 1, 0</walls>
+          </room>
+      </house>
+
+
+      <house id="treasure_room">
+        <origin>105, 41</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="treasure_room">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+          <room id="treasure_room-1">
+              <origin>0, 0</origin>
+              <size>9, 9</size>
+              <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>8, 4</door_location>
+              <doorID>treasure</doorID>
+              <door_cross>0</door_cross>
+            </door>
+          </room>
+      </house>
+
+      <house id="library">
+        <origin>123, 22</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="library">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c> O, o</c>
+            <crossable>0</crossable>
+            <brightness>15</brightness>
+          </wall_case>
+        </values>
+          <room id="library-1">
+              <origin>0, 0</origin>
+              <size>7, 9</size>
+              <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>4, 6</door_location>
+              <doorID>archive</doorID>
+              <door_cross>0</door_cross>
+            </door>
+          </room>
+      </house>
+
+      <house id="hall_1">
+        <origin>55, 19</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="hall_1">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+        </values>
+          <room id="hall_1-1">
+              <origin>0, 0</origin>
+              <size>11, 9</size>
+              <walls>0, 0, 0, 0</walls>
+          </room>
+      </house>
+
+      <house id="hall_2">
+        <origin>123, 29</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="hall_2">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+        </values>
+          <room id="hall_2-1">
+              <origin>0, 0</origin>
+              <size>7, 9</size>
+              <walls>0, 0, 0, 0</walls>
+          </room>
+      </house>
+
+      <house id="hall_3">
+        <origin>100, 5</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>15</brightness>
+            <special_case id="hall_2">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+        </values>
+          <room id="hall_2-1">
+              <origin>0, 0</origin>
+              <size>7, 7</size>
+              <walls>0, 0, 0, 0</walls>
+          </room>
+      </house>
+
+    </dungeon_houses>
+</data>

@@ -1,0 +1,88 @@
+<data>
+	<Monster id="001">
+		<initial_position>61, 22</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="002">
+		<initial_position>74, 11</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="003">
+		<initial_position>90, 12</initial_position>
+		<c>12, </c>
+		<color>0</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="004">
+		<initial_position>78, 4</initial_position>
+		<c>12, </c>
+		<color>3</color>
+		<sight>25</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="005">
+		<initial_position>79, 32</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="006">
+		<initial_position>89, 36</initial_position>
+		<c>12, </c>
+		<color>3</color>
+		<sight>25</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="007">
+		<initial_position>91, 24</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="008">
+		<initial_position>76, 28</initial_position>
+		<c>12, </c>
+		<color>3</color>
+		<sight>25</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="009">
+		<initial_position>129, 31</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="010">
+		<initial_position>131, 41</initial_position>
+		<c>12, </c>
+		<color>7</color>
+		<sight>10</sight>
+		<updateTime>1</updateTime>
+	</Monster>
+	<Monster id="011">
+		<initial_position>131, 45</initial_position>
+		<c>12, </c>
+		<color>1</color>
+		<sight>10</sight>
+		<updateTime>0.6</updateTime>
+	</Monster>
+	<Monster id="012">
+		<initial_position>117, 39</initial_position>
+		<c>12, </c>
+		<color>1</color>
+		<sight>10</sight>
+		<updateTime>0.6</updateTime>
+	</Monster>
+
+
+</data>

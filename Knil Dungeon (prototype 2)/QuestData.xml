@@ -1,0 +1,25 @@
+<data>
+  <quest title="La Lampe">
+    <step_lvl>0</step_lvl>
+    <auto_txt>
+      <pnj name="Le Maire">1</pnj>
+      <pnj name="Jean-Marie Le Crayon">2</pnj>
+    </auto_txt>
+    <details>Le Maire vous demande de trouver une lampe avant de vous engagez dans une quête dans le donjon.</details>
+    <step n="0">
+      <to_do>event_speak_Le Maire</to_do>
+      <result>execute_grid_addObject_74_21_sword</result>
+      <result>execute_give_key_house001-001</result>
+      <result>execute_give_bomb</result>
+      <result>execute_give_powder</result>
+    </step>
+    <step n="1">
+      <to_do>event_speak_Jean-Marie Le Crayon</to_do>
+      <result>execute_give_flashlight</result>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Le Maire</to_do>
+      <result>execute_endGame</result>
+    </step>
+  </quest>
+</data>

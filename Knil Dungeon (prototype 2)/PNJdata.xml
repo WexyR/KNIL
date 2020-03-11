@@ -1,0 +1,17 @@
+<data>
+	<PNJ id="Jean-Marie Le Crayon">
+		<position>45, 5</position>
+		<c>J</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Le Maire">
+		<position>13, 5</position>
+		<c>M</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="testeur">
+		<position>13, 10</position>
+		<c>T</c>
+		<color>1</color>
+	</PNJ>
+</data>

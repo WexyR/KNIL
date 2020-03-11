@@ -1,0 +1,48 @@
+<data>
+	<PNJ id="Jean-Marie Le Crayon">
+		<position>27, 5</position>
+		<c>J,M</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Vieillard">
+		<position>15, 7</position>
+		<c>V</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Andre">
+		<position>6, 32</position>
+		<c>A</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Bibliothecaire">
+		<position>6, 21</position>
+		<c>B</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Ermite">
+		<position>34, 94</position>
+		<c>E</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Corps d'un voyageur">
+		<position>103, 8</position>
+		<c>C</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Corps d'un voleur">
+		<position>124, 34</position>
+		<c>C</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Matthieu">
+		<position>19, 43</position>
+		<c>M</c>
+		<color>1</color>
+	</PNJ>
+	<PNJ id="Richard">
+		<position>111, 45</position>
+		<c>R</c>
+		<color>1</color>
+	</PNJ>
+
+</data>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <map>
+        <dimension>
+            <line>100</line>
+            <column>100</column>
+        </dimension>
+        <case>
+          <fontcolor>255</fontcolor>
+          <bgcolor>255</bgcolor>
+          <c>  ,  </c>
+          <crossable>1</crossable>
+        </case>
+    </map>
+
+    <areas>
+      <area id="town_grass">
+        <origin>0, 0</origin>
+        <size>100, 60</size>
+        <normal_case>
+          <fontcolor>35, 153, 89</fontcolor>
+          <bgcolor>35, 237, 0</bgcolor>
+          <c randomize = "2" equal="True">  , 1</c>
+          <crossable>1</crossable>
+          <brightness>100</brightness>
+        </normal_case>
+      </area>
+      <area id="dungeon">
+        <origin>60, 0</origin>
+        <size>100, 40</size>
+        <normal_case>
+          <fontcolor>64, 62, 66</fontcolor>
+          <bgcolor>38, 26, 48</bgcolor>
+          <c> O, o</c>
+          <crossable>0</crossable>
+          <brightness>20</brightness>
+        </normal_case>
+      </area>
+    </areas>
+
+
+
+    <roads>
+        <values>
+          <normal_case>
+            <fontcolor> 92, 92, 92</fontcolor>
+            <bgcolor> 92, 92, 92</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+          </normal_case>
+          <wall_case>
+            <fontcolor> 153, 212, 153</fontcolor>
+            <bgcolor> 153, 153, 153</bgcolor>
+            <c> 1,  </c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+          </wall_case>
+        </values>
+        <road id="001">
+            <origin>6, 1</origin>
+            <size>98, 10</size>
+            <walls>0, 1, 0, 1</walls>
+        </road>
+        <road id="002">
+            <origin>15, 20</origin>
+            <size>12, 45</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+        <road id="003">
+            <origin>15, 5</origin>
+            <size>3, 26</size>
+            <walls>1, 0, 1, 0</walls>
+        </road>
+    </roads>
+
+    <trees>
+      <values>
+          <leaf_case>
+            <fontcolor randomize="1" equal="False">
+          		<leaf_color>26, 153, 26</leaf_color>
+          		<leaf_color>40, 135, 25</leaf_color>
+          		<leaf_color>44, 142, 5</leaf_color>
+            </fontcolor>
+
+            <bgcolor randomize="1" equal="False">
+          		<leaf_color>26, 151, 26</leaf_color>
+          		<leaf_color>40, 131, 25</leaf_color>
+          		<leaf_color>44, 141, 5</leaf_color>
+            </bgcolor>
+            <c randomize="2" equal="True">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,  </c>
+            <crossable>2</crossable>
+          </leaf_case>
+
+      	  <trunk_case>
+                  <fontcolor>90, 163, 31</fontcolor>
+                  <bgcolor>10, 119, 2</bgcolor>
+                  <c> 1, 1</c>
+                  <crossable>0</crossable>
+                  <brightness>100</brightness>
+      	  </trunk_case>
+      </values>
+      <tree>
+    	  <origin>30, 45</origin>
+    	  <radius>7</radius>
+      </tree>
+      <tree>
+    	  <origin>27, 75</origin>
+    	  <radius>9</radius>
+      </tree>
+    </trees>
+
+
+    <houses>
+      <house id="001">
+        <origin>41, 1</origin>
+        <values>
+          <normal_case>
+            <fontcolor>99, 77, 10</fontcolor>
+            <bgcolor>234, 182, 28</bgcolor>
+            <c> , </c>
+            <crossable>1</crossable>
+            <brightness>100</brightness>
+            <special_case id="house001">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> ^, ^</c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+          <wall_case>
+            <fontcolor>153, 212, 153</fontcolor>
+            <bgcolor>153, 153, 153</bgcolor>
+            <c> 1, 1</c>
+            <crossable>0</crossable>
+            <brightness>100</brightness>
+            <special_case id="house001">
+              <fontcolor>109, 54, 12</fontcolor>
+              <bgcolor>224, 104, 13</bgcolor>
+              <c> @, =</c>
+              <crossable>1</crossable>
+            </special_case>
+          </wall_case>
+        </values>
+        <room id="001">
+          <origin>0, 0</origin>
+          <size>11, 14</size>
+          <walls>1, 1, 1, 1</walls>
+          <door>
+            <door_location>0, 5</door_location>
+            <door_cross>0</door_cross>
+            <doorID>house001-001</doorID>
+          </door>
+          <room id="001-1">
+            <values>
+              <normal_case>
+                <fontcolor>50, 77, 120</fontcolor>
+                <bgcolor>50, 77, 120</bgcolor>
+                <c> , </c>
+                <crossable>1</crossable>
+                <brightness>100</brightness>
+                <special_case id="house001">
+                  <fontcolor>109, 54, 12</fontcolor>
+                  <bgcolor>224, 104, 13</bgcolor>
+                  <c> =, =</c>
+                  <crossable>1</crossable>
+                </special_case>
+              </normal_case>
+            </values>
+            <origin>6, -1</origin>
+            <size>7, 11</size>
+            <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>0, 4</door_location>
+            </door>
+          </room>
+          <room id="001-2">
+            <values>
+              <normal_case>
+                <fontcolor>210, 77, 120</fontcolor>
+                <bgcolor>210, 77, 120</bgcolor>
+                <c> , </c>
+                <crossable>1</crossable>
+                <brightness>100</brightness>
+                <special_case id="house001">
+                  <fontcolor>109, 54, 12</fontcolor>
+                  <bgcolor>224, 104, 13</bgcolor>
+                  <c> =, =</c>
+                  <crossable>1</crossable>
+                </special_case>
+              </normal_case>
+            </values>
+            <origin>4, 8</origin>
+            <size>7, 11</size>
+            <walls>1, 1, 1, 1</walls>
+            <door>
+              <door_location>0, 1</door_location>
+            </door>
+          </room>
+        </room>
+
+      </house>
+    </houses>
+
+    <!-- INTERACTIVE CASES -->
+
+    <interactive_cases>
+      <cases>
+        <!-- signs -->
+        <values>
+          <c> ,?</c>
+          <crossable>0</crossable>
+        </values>
+        <case>
+          <origin>14, 5</origin>
+          <executions>
+            <execution>execute_dialog_Maison de Jean-Marie Le Crayon</execution>
+          </executions>
+        </case>
+        <case>
+          <origin>58, 22</origin>
+          <executions>
+            <execution>execute_dialog_Donjon de Naheulbeuk</execution>
+          </executions>
+        </case>
+        <case>
+          <origin>11, 99</origin>
+          <executions>
+            <execution>execute_dialog_test</execution>
+          </executions>
+        </case>
+      </cases>
+    </interactive_cases>
+
+    <!-- DUNGEON -->
+
+
+
+    <dungeon_roads>
+      <values>
+        <normal_case>
+          <fontcolor>64, 62, 66</fontcolor>
+          <bgcolor>38, 26, 48</bgcolor>
+          <c>  ,  </c>
+          <crossable>1</crossable>
+          <brightness>5</brightness>
+        </normal_case>
+        <wall_case>
+          <fontcolor> 153, 212, 153</fontcolor>
+          <bgcolor> 153, 153, 153</bgcolor>
+          <c>  ,  </c>
+          <crossable>0</crossable>
+          <brightness>5</brightness>
+        </wall_case>
+      </values>
+      <road id="001">
+          <origin>60, 21</origin>
+          <size>10, 6</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+      <road id="001">
+          <origin>63, 10</origin>
+          <size>11, 3</size>
+          <walls>0, 0, 0, 0</walls>
+      </road>
+    </dungeon_roads>
+
+    <dungeon_houses>
+      <house id="001">
+        <origin>66, 6</origin>
+        <values>
+          <normal_case>
+            <fontcolor>64, 62, 66</fontcolor>
+            <bgcolor>38, 26, 48</bgcolor>
+            <c>  ,  </c>
+            <crossable>1</crossable>
+            <brightness>5</brightness>
+            <special_case id="dh001">
+              <fontcolor>3, 3, 3</fontcolor>
+              <bgcolor>2, 1, 3</bgcolor>
+              <c>  ,  </c>
+              <crossable>1</crossable>
+            </special_case>
+          </normal_case>
+        </values>
+        <room id="dhr001-1">
+          <origin>0, 0</origin>
+          <size>30, 30</size>
+        </room>
+      </house>
+    </dungeon_houses>
+</data>

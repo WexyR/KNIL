@@ -1,0 +1,30 @@
+<data>
+  <quest title="La Lampe">
+    <step_lvl>0</step_lvl>
+    <auto_txt>
+      <pnj name="Le Maire">1</pnj>
+      <pnj name="Jean-Marie Le Crayon">2</pnj>
+    </auto_txt>
+    <step n="0">
+      <to_do>event_speak_Le Maire</to_do>
+    </step>
+    <step n="1">
+      <to_do>event_speak_Jean-Marie Le Crayon</to_do>
+      <result>execute_give_Lampe</result>
+    </step>
+    <step n="2">
+      <to_do>event_speak_Le Maire</to_do>
+    </step>
+  </quest>
+  <quest title="Le Donjon">
+    <step_lvl>-1</step_lvl>
+    <auto_txt>0</auto_txt>
+    <step n="-1">
+      <to_do>event_finish_La Lampe</to_do>
+    </step>
+    <step n="0">
+      <to_do>event_speak_Jean-Marie Le Crayon</to_do>
+    </step>
+  </quest>
+
+</data>
